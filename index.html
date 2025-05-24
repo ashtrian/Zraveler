@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zraveler.com - Flight, Hotel, Holiday Packages, Visa and Passport Services. Explore global and domestic destinations with ease.">
+  <meta name="keywords" content="travel agency, flights, hotels, holiday packages, visa, passport, India tours, international travel">
+  <meta name="author" content="Zraveler.com">
+  <title>Zraveler - Your Travel Company</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3448/3448335.png" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    nav { background: #0077cc; padding: 1em; color: white; position: sticky; top: 0; z-index: 1000; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    header { background: url('https://source.unsplash.com/1600x600/?travel') no-repeat center center/cover; color: white; text-align: center; padding: 100px 20px; animation: fadeIn 2s ease-in; }
+    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    h1, h2 { color: #0077cc; text-align: center; }
+    .destinations span { display: inline-block; margin: 5px 10px; background: #f0f0f0; padding: 5px 10px; border-radius: 5px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    img { width: 100%; height: auto; border-radius: 8px; margin: 20px 0; }
+    .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 20px; }
+    .carousel img { min-width: 300px; height: 200px; object-fit: cover; scroll-snap-align: start; border-radius: 10px; transition: transform 0.3s ease; }
+    .carousel img:hover { transform: scale(1.05); }
+    form { background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    form label { display: block; margin-top: 10px; font-weight: bold; }
+    form select, form textarea, form input, form button { width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc; }
+    form button { background: #0077cc; color: white; border: none; cursor: pointer; margin-top: 15px; }
+    form button:hover { background: #005fa3; }
+    @media (max-width: 768px) {
+      nav a { display: block; margin: 10px 0; }
+      .carousel { flex-direction: column; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <header id="home">
+    <h1>Welcome to Zraveler.com</h1>
+    <p>Your one-stop travel company for Flights, Hotels, Holidays & Visa Services</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <img src="https://source.unsplash.com/800x400/?travel,team" alt="About Us">
+    <p>We started <strong>Zraveler.com</strong> as a one-stop travel company for travelers and dreamers who want to explore the world or have travel needs. Our mission is to provide ease of booking at competitive prices — better than other online aggregators.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <img src="https://source.unsplash.com/800x400/?flights,hotels" alt="Services">
+    <ul>
+      <li>Domestic and International Tour Packages</li>
+      <li>Flight Bookings (All Airlines)</li>
+      <li>Hotel Bookings</li>
+      <li>Visa and Passport Assistance</li>
+    </ul>
+    <p><em>Dreaming of Your Next Getaway? ✈️🌴<br>Let Zraveler make it happen!</em></p>
+  </section>
+
+  <section id="destinations">
+    <h2>Popular Destinations</h2>
+    <img src="https://source.unsplash.com/800x400/?beach,mountain" alt="Destinations">
+    <div class="carousel">
+      <img src="https://source.unsplash.com/300x200/?dubai" alt="Dubai">
+      <img src="https://source.unsplash.com/300x200/?maldives" alt="Maldives">
+      <img src="https://source.unsplash.com/300x200/?thailand" alt="Thailand">
+      <img src="https://source.unsplash.com/300x200/?vietnam" alt="Vietnam">
+      <img src="https://source.unsplash.com/300x200/?bali" alt="Bali">
+      <img src="https://source.unsplash.com/300x200/?europe" alt="Europe">
+      <img src="https://source.unsplash.com/300x200/?usa" alt="USA">
+      <img src="https://source.unsplash.com/300x200/?australia" alt="Australia">
+    </div>
+    <div class="destinations">
+      <span>Dubai</span> <span>Maldives</span> <span>Thailand</span> <span>Vietnam</span>
+      <span>Bali</span> <span>Mauritius</span> <span>Malaysia</span> <span>Singapore</span>
+      <span>Hong Kong</span> <span>Sri Lanka</span> <span>Cruises</span> <span>Europe</span>
+      <span>Egypt</span> <span>Jordan</span> <span>Greece</span> <span>Australia</span>
+      <span>New Zealand</span> <span>USA</span> <span>UK</span> <span>South Africa</span>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Travel</h2>
+    <form action="https://formsubmit.co/ashish@zraveler.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">Select Service Type:</label>
+      <select id="service" name="service">
+        <option value="flight">Flight</option>
+        <option value="hotel">Hotel</option>
+        <option value="package">Holiday Package</option>
+        <option value="visa">Visa</option>
+        <option value="passport">Passport</option>
+      </select>
+
+      <label for="description">Your Requirements:</label>
+      <textarea id="description" name="description" rows="5" placeholder="Describe your travel plans..."></textarea>
+
+      <button type="submit">Submit Booking Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <img src="https://source.unsplash.com/800x400/?contact,travel" alt="Contact">
+    <p>📧 Email: <a href="mailto:ashish@zraveler.com">ashish@zraveler.com</a><br />
+       📱 WhatsApp: <a href="https://wa.me/917065621555">+91 7065621555</a></p>
+    <p>Let’s make your dream vacation a reality!</p>
+    <p><strong>Warm regards,<br />Ashish Tripathi<br />Zraveler – Your Travel Company</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Zraveler.com. All rights reserved.
+  </footer>
+</body>
+</html>
